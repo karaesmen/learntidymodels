@@ -4,10 +4,10 @@ output:
   learnr::tutorial:
     progressive: true
     allow_skip: true
-    css: css/style.css
+    css: `r system.file("inst/resources/css/style.css", package = "learntidymodels")`
 runtime: shiny_prerendered
 ---
-<script language="JavaScript" src="js/exercise-font-size.js"></script>
+<script language="JavaScript" src="inst/resources/js/exercise-font-size.js"></script>
 
 ```{r setup, include=FALSE, message=FALSE}
 library(learnr)
