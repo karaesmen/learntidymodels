@@ -5,7 +5,7 @@
 ^\.github$
 ^cran-comments\.md$
 ^LICENSE\.md$
-^inst/.tsv$
+^inst/.*\.tsv$
 ^inst/tutorials/.*\.html$
 ^codecov\.yml$
 ^inst/tutorials/.*/rsconnect$
